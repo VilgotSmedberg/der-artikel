@@ -1,0 +1,85 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+
+}
+.red {
+    color: red;
+}
+.black {
+    color: black;
+}
+
+.bg-masthead {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+#container {
+    position: relative;
+    z-index: 1;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#output-p {
+    font-size: 82px;
+    font-weight: 700;
+    color: rgb(45, 44, 44);
+    margin-top: 140px;
+}
+
+#genus {
+    color: red;
+}
+
+#description-p {
+    margin-top: -80px;
+    font-size: 26px;
+    font-weight: 800;
+    font-style: italic;
+}
+
+#search {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#input {
+    background-color: rgba(255, 255, 255, 0.3);
+    border: none;
+    padding: 12px 10px;
+    font-size: 16px;
+    color: rgb(74, 72, 72);
+}
+
+#submit {
+    background: none;
+    border: solid 1px rgb(0, 0, 0);
+    width: 44px;
+    height: 44px;
+}
+
+#submit-img {
+    width: 18px;
+}
+
+#submit:hover {
+    background-color: rgba(254, 254, 254, 0.463);
+    color: white;
+}
+
+#error-message {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: red;
+}
