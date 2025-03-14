@@ -3,18 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./style.css">
     <title>der-artikel</title>
 </head>
 <body>
     <img src="images/bg-masthead.jpg" class="bg-masthead" alt="background">
     <div id="container">
         <p id="output-p"><span id="genus">das</span> <span id="word">Brot</span></p>
-        <p id="description-p">Substantiv, Neutrum</p>
+        <p id="description-p" >Substantiv, Neutrum</p>
+        <p id="translation-swedish" class="translated-text"> SE: Bröd</p>
+        <p id="translation-english" class="translated-text"> EN: Bread</p>
         <div id="search">
-            <input type="text" id="input" placeholder="Sök ord">
+            <input type="text" id="input" class="inputs" placeholder="Sök ord (tyska)">
             <button id="submit" onclick="getGender()"><img src="images/search-316.png" id="submit-img" alt=""></button>
         </div>
+
 
     </div>
 
